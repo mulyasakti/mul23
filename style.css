@@ -4,7 +4,7 @@
 	font-family: sans-serif;
 }
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(1,1,1,1)),url(bg.jpg);
 	height : 100vh;
 	background-size: contain;
 	background-position: center;
@@ -51,10 +51,10 @@ ul li.active a{
 	transform: translate(50%;30%);
 }
 .title h1{
-	position: sticky;
+	position: static;
 	font-family: all;
 	color: #fffaf0;
-	font-size: 60px;	
+	font-size: 55px;	
 }
 .subtitle{
 	position: fixed;
